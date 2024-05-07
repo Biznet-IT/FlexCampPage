@@ -34,13 +34,19 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
           <div class="row justify-content-start">
             <DefaultInfoCard
               icon="content_copy"
-              title="Full Documentation"
+              title="Shop"
               description="Built by developers for developers. Check the foundation and
                   you will find everything inside our documentation."
             />
             <DefaultInfoCard
               icon="flip_to_front"
-              title="Bootstrap 5 Ready"
+              title="Office"
+              description="The world’s most popular front-end open source toolkit,
+                  featuring Sass variables and mixins."
+            />
+            <DefaultInfoCard
+              icon="flip_to_front"
+              title="Storage"
               description="The world’s most popular front-end open source toolkit,
                   featuring Sass variables and mixins."
             />
@@ -48,17 +54,23 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
           <div class="row justify-content-start mt-5">
             <DefaultInfoCard
               class="mt-3"
-              icon="price_change"
+              icon="Clinic"
               title="Save Time & Money"
               description="Creating your design from scratch with dedicated designers can
                 be very expensive. Start with our Design System."
             />
             <DefaultInfoCard
               class="mt-3"
-              icon="devices"
+              icon="Security Room"
               title="Fully Responsive"
               description="Regardless of the screen size, the website content will
                   naturally fit the given resolution."
+            />
+            <DefaultInfoCard
+              icon="flip_to_front"
+              title="Camp"
+              description="The world’s most popular front-end open source toolkit,
+                  featuring Sass variables and mixins."
             />
           </div>
         </div>

@@ -112,9 +112,9 @@ onUnmounted(() => {
     <PresentationInformation />
     <!-- <PresentationExample :data="data" /> -->
     <!-- <PresentationPages /> -->
-    <BuiltByDevelopers />
+    <!-- <BuiltByDevelopers /> -->
 
-    <div class="container">
+    <!-- <div class="container">
       <div class="row">
         <div class="col-lg-4">
           <FilledInfoCard class="p-4" :color="{ text: 'white', background: 'bg-gradient-success' }"
@@ -145,7 +145,7 @@ onUnmounted(() => {
         }" />
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- <PresentationTestimonials /> -->
 
 
