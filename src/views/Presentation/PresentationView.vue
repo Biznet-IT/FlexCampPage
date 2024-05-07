@@ -20,7 +20,7 @@ import PresentationTestimonials from "./Sections/PresentationTestimonials.vue";
 import PresentationInformation from "./Sections/PresentationInformation.vue";
 
 //images
-import vueMkHeader from "@/assets/img/vue-mk-header.jpg";
+import vueMkHeader from "@/assets/img/containers/wellcampimage3.jpg";
 import wavesWhite from "@/assets/img/waves-white.svg";
 import logoBootstrap from "@/assets/img/logos/bootstrap5.jpg";
 import logoTailwind from "@/assets/img/logos/icon-tailwind.jpg";
@@ -62,23 +62,62 @@ onUnmounted(() => {
               class="text-white pt-3 mt-n5 me-2"
               :style="{ display: 'inline-block ' }"
             >
-              Material Kit 2
+              FlexCamp
             </h1>
             <p class="lead text-white px-5 mt-3" :style="{ fontWeight: '500' }">
-              Start the Development With Bootstrap 5 Design System inspired by
-              Material Design.
+              Containers para campamentos mineros, construcción y emergencias.
             </p>
+            
           </div>
         </div>
       </div>
     </div>
   </Header>
+  
 
   <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
     <PresentationCounter />
+    <div
+      class="container-fluid mt-sm-5 border-radius-xl"
+      :style="{
+        background: 'linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25))'
+      }"
+    >
+      <div
+        class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl"
+        :style="{
+          backgroundImage: `url(${wavesWhite})`
+        }"
+        loading="lazy"
+      >
+        <span class="mask bg-gradient-dark"></span>
+        <div class="container">
+          <div class="row">
+            <div class="d-flex justify-content-center p-5">
+              <div class="col-lg-8 ms-lg-5 text-center">
+                <h3 class="text-white">
+                  Bienvenido a FlexCamp
+                </h3>
+                <p class="text-white text-md">
+                  FlexCamp es una solución pionera en alojamiento temporal, especialmente diseñada para industrias como la minería, la construcción y situaciones de emergencia. Nuestro enfoque se centra en ofrecer campamentos de casas móviles que combinan eficiencia operativa con responsabilidad ecológica. Concebidos para adaptarse rápidamente a variadas exigencias operativas, nuestros campamentos destacan por su capacidad de instalación veloz y autónoma de procesos burocráticos extensos.
+
+                </p>
+
+                <a
+                  href=""
+                  to=""
+                  class="btn btn-sm mb-0 bg-gradient-success px-5 py-3 mt-4"
+                  >Descripción del Servicio</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <PresentationInformation />
-    <PresentationExample :data="data" />
-    <PresentationPages />
+    <!-- <PresentationExample :data="data" /> -->
+    <!-- <PresentationPages /> -->
     <BuiltByDevelopers />
 
     <div class="container">
@@ -128,49 +167,11 @@ onUnmounted(() => {
         </div>
       </div>
     </div>
-    <PresentationTestimonials />
+    <!-- <PresentationTestimonials /> -->
 
-    <div
-      class="container-fluid mt-sm-5 border-radius-xl"
-      :style="{
-        background: 'linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25))'
-      }"
-    >
-      <div
-        class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl"
-        :style="{
-          backgroundImage: `url(${wavesWhite})`
-        }"
-        loading="lazy"
-      >
-        <span class="mask bg-gradient-dark"></span>
-        <div class="container">
-          <div class="row">
-            <div class="d-flex justify-content-center p-5">
-              <div class="col-lg-8 ms-lg-5 text-center">
-                <h3 class="text-white">
-                  Do you love this awesome UI Kit from Vuejs & Bootstrap?
-                </h3>
-                <p class="text-white text-md">
-                  Cause if you do, it can be yours for FREE. Hit the button
-                  below to navigate to Creative Tim where you can <br />
-                  find the Design System in HTML. Start a new project or give an
-                  old Bootstrap project a new look!
-                </p>
+    
 
-                <a
-                  href="https://www.creative-tim.com/product/vue-material-kit"
-                  class="btn btn-sm mb-0 bg-gradient-success px-5 py-3 mt-4"
-                  >Download Now</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
+    <!-- <div class="container">
       <div class="row">
         <div class="d-flex flex-column w-100 text-center p-5 mb-8">
           <h3>Available on these technologies</h3>
@@ -291,7 +292,7 @@ onUnmounted(() => {
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
   <DefaultFooter />
 </template>
