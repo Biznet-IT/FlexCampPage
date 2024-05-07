@@ -8,6 +8,7 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
 
 //image
 import bg0 from "@/assets/img/containers/container2.png";
+import wavesWhite from "@/assets/img/waves-white.svg";
 
 //dep
 import Typed from "typed.js";
@@ -58,7 +59,7 @@ onUnmounted(() => {
               Descripción del Servicio
             </h1>
             <p class="lead mb-4 text-white opacity-8">
-              
+
             </p>
           </div>
         </div>
@@ -87,6 +88,95 @@ onUnmounted(() => {
               y adaptada a las más estrictas normas de calidad y seguridad. EcoCamp es el aliado perfecto para proyectos
               que demandan rapidez, eficiencia y responsabilidad ambiental." />
       </div>
+    </div>
+  </div>
+  <div class="container-fluid mt-sm-5 border-radius-xl" :style="{
+    background: 'linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25))'
+  }">
+    <div class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl" :style="{
+    backgroundImage: `url(${wavesWhite})`
+  }" loading="lazy">
+      <span class="mask bg-gradient-dark"></span>
+      <div class="container">
+        <div class="row">
+          <div class="d-flex justify-content-center p-5">
+            <div class="col-lg-8 ms-lg-5 text-center">
+              <h2 class="text-white pb-5">
+                Gestión de Recursos y Logística en FlexCamp
+              </h2>
+
+              <h4 class="text-white pb-3">
+                Manejo de Agua y Energía
+              </h4>
+              <p class="text-white text-md">
+                En FlexCamp, la gestión eficiente del agua y la energía son pilares fundamentales de nuestros
+                campamentos móviles.
+                Nuestra aproximación al suministro de agua incluye sistemas avanzados que aseguran un uso óptimo de este
+                recurso vital.
+                Utilizamos tecnologías de tratamiento y reciclaje para manejar tanto las aguas grises (provenientes de
+                duchas y lavabos)
+                como las aguas negras (deshechos sanitarios), transformándolas en agua segura para otros usos no
+                potables,
+                lo que reduce significativamente el consumo total de agua.
+              </p>
+              <p class="text-white text-md">
+                Para el suministro energético, EcoCamp implementa soluciones basadas en fuentes renovables. Contamos con
+                instalaciones
+                de paneles solares y opciones de energía eólica, que no solo proveen una fuente de energía sostenible y
+                continua,
+                sino que también minimizan la huella de carbono de las operaciones en el campamento.
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-sm-5">
+    <div class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl" :style="{
+    backgroundImage:
+      'url(https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/desktop.jpg)'
+  }" loading="lazy">
+      <span class="mask bg-gradient-dark"></span>
+      <div class="container">
+        <div class="row">
+          <div class="d-flex justify-content-center p-5">
+            <div class="col-lg-8 ms-lg-5 text-center">
+              <h4 class="text-white pb-3">
+                Logística y Colaboración con Well Camp
+              </h4>
+              <p class="text-white text-md">
+                FlexCamp trabaja en colaboración con Well Camp, una renombrada empresa china especializada en la
+                construcción de estructuras modulares.
+                Esta alianza estratégica nos permite acceder a innovaciones líderes en el sector y a materiales de alta
+                calidad, garantizando la durabilidad y
+                eficiencia de nuestros campamentos.
+              </p>
+              <p class="text-white text-md">
+                Nuestra infraestructura logística se apoya en una red de bodegas en China, donde almacenamos
+                pre-fabricados y otros materiales esenciales.
+                Este sistema nos permite mantener un flujo constante de recursos, asegurando una rápida respuesta a las
+                necesidades de nuestros clientes
+                en cualquier parte del mundo. Nuestro completo sistema de importación y logística está diseñado para
+                manejar eficientemente la cadena de suministro
+                desde la producción hasta la instalación en sitio, lo que nos permite ejecutar proyectos a gran escala
+                con tiempos de entrega optimizados.
+              </p>
+              <p class="text-white text-md">
+                Con estas capacidades, EcoCamp se establece no solo como un proveedor de soluciones habitacionales
+                temporales, sino como un socio logístico integral
+                que garantiza la operatividad y sostenibilidad de los campamentos en cualquier entorno. Esta combinación
+                de gestión responsable de recursos y
+                logística avanzada nos posiciona como líderes en la industria de alojamientos temporales para
+                sectores críticos.
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 
