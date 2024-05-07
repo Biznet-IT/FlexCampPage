@@ -15,9 +15,9 @@ const props = defineProps({
     color: String,
     label: String,
     default: () => ({
-      route: "https://www.creative-tim.com/product/vue-material-kit",
+      route: "pages/landing-pages/contact-us",
       color: "bg-gradient-success",
-      label: "Free Download"
+      label: "Contacto"
     })
   },
   transparent: {
@@ -117,7 +117,7 @@ watch(
         ]"
         :to="{ name: 'presentation' }"
         rel="tooltip"
-        title="Designed and Coded by Creative Tim"
+        title="By Biznet It"
         data-placement="bottom"
       >
         FlexCamp
@@ -131,16 +131,12 @@ watch(
         "
         to="/"
         rel="tooltip"
-        title="Designed and Coded by Creative Tim"
+        title="By Biznet It"
         data-placement="bottom"
       >
-        Material Design
+        FlexCamp
       </RouterLink>
-      <a
-        href="https://www.creative-tim.com/product/vue-material-kit-pro"
-        class="btn btn-sm bg-gradient-success mb-0 ms-auto d-lg-none d-block"
-        >Buy Now</a
-      >
+      
       <button
         class="navbar-toggler shadow-none ms-2"
         type="button"
@@ -175,7 +171,7 @@ watch(
                 :class="getTextColor()"
                 >dashboard</i
               >
-              Pages
+              Paginas
               <img
                 :src="getArrowColor()"
                 alt="down-arrow"
@@ -198,19 +194,19 @@ watch(
                       <div
                         class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1"
                       >
-                        Landing Pages
+                        Páginas
                       </div>
                       <RouterLink
                         :to="{ name: 'about' }"
                         class="dropdown-item border-radius-md"
                       >
-                        <span>About Us</span>
+                        <span>Sobre Nosotros</span>
                       </RouterLink>
                       <RouterLink
                         :to="{ name: 'contactus' }"
                         class="dropdown-item border-radius-md"
                       >
-                        <span>Contact Us</span>
+                        <span>Contacto</span>
                       </RouterLink>
                       <RouterLink
                         :to="{ name: 'author' }"
