@@ -196,12 +196,12 @@ watch(
                       >
                         Páginas
                       </div>
-                      <RouterLink
+                      <!-- <RouterLink
                         :to="{ name: 'about' }"
                         class="dropdown-item border-radius-md"
                       >
                         <span>Sobre Nosotros</span>
-                      </RouterLink>
+                      </RouterLink> -->
                       <RouterLink
                         :to="{ name: 'contactus' }"
                         class="dropdown-item border-radius-md"
