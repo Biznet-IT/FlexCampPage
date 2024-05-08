@@ -123,7 +123,7 @@ defineProps({
 });
 </script>
 <template>
-  <div class="card text-center">
+  <div class="footer text-center p-5 mt-5">
   
   <div class="card-body">
     <div>
