@@ -29,19 +29,19 @@ import DefaultInfoCard from "../../../examples/cards/infoCards/DefaultInfoCard.v
         <div class="col-lg-6 ms-auto">
           <div class="row justify-content-start">
             <div class="card m-3" style="width: 18rem;">
-              <img src="src\assets\img\containers\container-shop.png" class="card-img-top" alt="...">
+              <img src="/src/assets/img/containers/container-shop.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">Containers para Tiendas</p>
               </div>
             </div>
             <div class="card m-3" style="width: 18rem;">
-              <img src="src\assets\img\containers\container-office.png" class="card-img-top" alt="...">
+              <img src="/src/assets/img/containers/container-office.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">Containers para Tiendas</p>
               </div>
             </div>
             <div class="card m-3" style="width: 18rem;">
-              <img src="src\assets\img\containers\container-storage.png" class="card-img-top" alt="...">
+              <img src="/src/assets/img/containers/container-storage.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-text">Containers para Tiendas</p>
               </div>
