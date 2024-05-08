@@ -27,7 +27,7 @@ onMounted(() => {
           :sticky="true"
           :action="{
             route: '/',
-            color: 'bg-gradient-success',
+            color: 'btn-info',
             label: 'Home',
           }"
         />
@@ -67,9 +67,6 @@ onMounted(() => {
               </div>
               <div class="card-body">
                 <p class="pb-3">
-                  For further questions, including partnership opportunities,
-                  please email hello@creative-tim.com or contact using our
-                  contact form.
                   Para más información, comunicate con nuestro equipos de ventas a traves de nuestro formulario de contacto.
                 </p>
                 <form id="contact-form" method="post" autocomplete="off">
@@ -88,7 +85,7 @@ onMounted(() => {
                           class="input-group-static mb-4"
                           type="email"
                           label="Email"
-                          placeholder="hola@flexcamp.com"
+                          placeholder="Contacto@flexcamp.cl"
                         />
                       </div>
                     </div>

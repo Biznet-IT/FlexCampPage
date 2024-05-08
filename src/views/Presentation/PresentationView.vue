@@ -55,14 +55,14 @@ onUnmounted(() => {
   <Header>
     <div class="page-header min-vh-75" :style="`background-image: url(${vueMkHeader})`" loading="lazy">
       <div class="container">
-        <div class="row mt-10 pt-10">
+        <div class="row mt-2 pt-2">
           <div class="col-lg-7 text-center mx-auto position-relative">
             <!-- <h1 class="display-1 text-white pt-10 mt-n5 me-2" style="text-shadow: 2px 2px black"
               :style="{ display: 'inline-block ' }">
               FlexCamp
             </h1> -->
             <!--image logo-->
-            <img :src="logoflex1" alt="title" loading="lazy" :style="{ height: '12vh' }" />
+            <img :src="logoflex1" alt="title" loading="lazy" class="img-fluid"  />
 
             <h3 class="text-white px-5 mt-3" style="text-shadow: 2px 2px black">
               Flexible, rápido y ecológico
@@ -85,10 +85,10 @@ onUnmounted(() => {
     <div class="card text-center">
       
       <div class="card-body">
-        <img :src="secuencia" alt="title" loading="lazy" :style="{ height: '12vh' }" />
+        <img :src="secuencia" alt="title" loading="lazy" class="img-fluid"/>
         <h2 class="card-title">
-          <span style="color: red;">4</span> PASOS = <span style="color: red;">4</span> MINUTOS = <span
-            style="color: red;">1</span> CASA
+          <span style="color: green;">4</span> PASOS = <span style="color: green;">4</span> MINUTOS = <span
+            style="color: green;">1</span> CASA
         </h2>
         
       </div>
@@ -117,7 +117,7 @@ onUnmounted(() => {
                   por su capacidad de instalación veloz y autónoma de procesos burocráticos extensos.
 
                 </p>
-                <RouterLink :to="{ name: 'description' }" class="btn btn-sm mb-0 bg-gradient-success px-5 py-3 mt-4">
+                <RouterLink :to="{ name: 'description' }" class="btn btn-info btn-sm mb-0 px-5 py-3 mt-4">
                   <span>Descripción del Servicio</span>
                 </RouterLink>
               </div>
