@@ -6,7 +6,7 @@ import DefaultNavbar from "@/examples/navbars/NavbarDefault.vue";
 import DefaultFooter from "@/examples/footers/FooterDefault.vue";
 
 //image
-import image from "@/assets/img/illustrations/illustration-signin.jpg";
+import image from "@/assets/img/containers/wellcampimage2.jpg";
 
 //material components
 import MaterialInput from "@/components/MaterialInput.vue";
@@ -26,9 +26,9 @@ onMounted(() => {
         <DefaultNavbar
           :sticky="true"
           :action="{
-            route: 'https://www.creative-tim.com/product/vue-material-kit-pro',
+            route: '/',
             color: 'bg-gradient-success',
-            label: 'Buy Now',
+            label: 'Home',
           }"
         />
       </div>
@@ -62,7 +62,7 @@ onMounted(() => {
                 <div
                   class="bg-gradient-success shadow-success border-radius-lg p-3"
                 >
-                  <h3 class="text-white text-success mb-0">Contact us</h3>
+                  <h3 class="text-white text-success mb-0">Contactanos</h3>
                 </div>
               </div>
               <div class="card-body">
@@ -70,6 +70,7 @@ onMounted(() => {
                   For further questions, including partnership opportunities,
                   please email hello@creative-tim.com or contact using our
                   contact form.
+                  Para más información, comunicate con nuestro equipos de ventas a traves de nuestro formulario de contacto.
                 </p>
                 <form id="contact-form" method="post" autocomplete="off">
                   <div class="card-body p-0 my-3">
@@ -78,8 +79,8 @@ onMounted(() => {
                         <MaterialInput
                           class="input-group-static mb-4"
                           type="text"
-                          label="Full Name"
-                          placeholder="Full Name"
+                          label="Nombre Completo"
+                          placeholder="Nombre Completo"
                         />
                       </div>
                       <div class="col-md-6 ps-md-2">
@@ -87,7 +88,7 @@ onMounted(() => {
                           class="input-group-static mb-4"
                           type="email"
                           label="Email"
-                          placeholder="hello@creative-tim.com"
+                          placeholder="hola@flexcamp.com"
                         />
                       </div>
                     </div>
@@ -96,8 +97,8 @@ onMounted(() => {
                         id="message"
                         class="input-group-static mb-4"
                         :rows="6"
-                        placeholder="Describe your problem in at least 250 characters"
-                        >How can we help you?</MaterialTextArea
+                        placeholder="Describe tu pedido en menos de 250 carateres"
+                        >Cómo podemos ayudarte?</MaterialTextArea
                       >
                     </div>
                     <div class="row">
@@ -106,7 +107,7 @@ onMounted(() => {
                           variant="gradient"
                           color="success"
                           class="mt-3 mb-0"
-                          >Send Message</MaterialButton
+                          >Enviar Mensaje</MaterialButton
                         >
                       </div>
                     </div>
