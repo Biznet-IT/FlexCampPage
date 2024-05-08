@@ -54,21 +54,22 @@ onUnmounted(() => {
   <Header>
     <div class="page-header min-vh-75" :style="`background-image: url(${vueMkHeader})`" loading="lazy">
       <div class="container">
-        <div class="row">
+        <div class="row mt-10 pt-10">
           <div class="col-lg-7 text-center mx-auto position-relative">
-            <h1 class="text-white pt-3 mt-n5 me-2" style="text-shadow: 2px 2px black"
+            <h1 class="display-1 text-white pt-10 mt-n5 me-2" style="text-shadow: 2px 2px black"
               :style="{ display: 'inline-block ' }">
               FlexCamp
             </h1>
-            <p class="lead text-white px-5 mt-3" :style="{ fontWeight: '500' }">
-              Containers modulares plegables
-            </p>
-            <img :src="secuencia" alt="title" loading="lazy" :style="{ height: '12vh' }" />
+
+            <h3 class="text-white px-5 mt-3" style="text-shadow: 2px 2px black">
+              Flexible, rápido y ecológico
+            </h3>
+            <!-- <img :src="secuencia" alt="title" loading="lazy" :style="{ height: '12vh' }" />
 
             <h3 class="text-white px-5 mt-3" style="text-shadow: 2px 2px black">
               <span style="color: red;">4</span> PASOS = <span style="color: red;">4</span> MINUTOS = <span
                 style="color: red;">1</span> CASA
-            </h3>
+            </h3> -->
           </div>
         </div>
       </div>
@@ -76,7 +77,20 @@ onUnmounted(() => {
   </Header>
 
 
-  <div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
+  <div class="card card-body blur shadow-blur">
+    
+    <div class="card text-center">
+      
+      <div class="card-body">
+        <img :src="secuencia" alt="title" loading="lazy" :style="{ height: '12vh' }" />
+        <h2 class="card-title">
+          <span style="color: red;">4</span> PASOS = <span style="color: red;">4</span> MINUTOS = <span
+            style="color: red;">1</span> CASA
+        </h2>
+        
+      </div>
+      
+    </div>
     <PresentationCounter />
     <div class="container-fluid mt-sm-5 border-radius-xl" :style="{
           background: 'linear-gradient(195deg, rgb(66, 66, 74), rgb(25, 25, 25))'
