@@ -208,7 +208,7 @@ watch(
                       >
                         <span>Contacto</span>
                       </RouterLink>
-                      <RouterLink
+                      <!-- <RouterLink
                         :to="{ name: 'author' }"
                         class="dropdown-item border-radius-md"
                       >
@@ -224,7 +224,7 @@ watch(
                         class="dropdown-item border-radius-md"
                       >
                         <span>Sign In</span>
-                      </RouterLink>
+                      </RouterLink> -->
                     </div>
                   </div>
                 </div>
@@ -750,7 +750,7 @@ watch(
               </div>
             </div>
           </li> -->
-          <li class="nav-item dropdown dropdown-hover mx-2">
+          <!-- <li class="nav-item dropdown dropdown-hover mx-2">
             <a
               role="button"
               class="nav-link ps-2 d-flex cursor-pointer align-items-center"
@@ -903,7 +903,7 @@ watch(
                 </div>
               </div>
             </div>
-          </li>
+          </li> -->
           
         </ul>
         <ul class="navbar-nav d-lg-block d-none">
