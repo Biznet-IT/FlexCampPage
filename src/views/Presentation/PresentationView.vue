@@ -30,6 +30,7 @@ import logoAngular from "@/assets/img/logos/angular.jpg";
 import logoReact from "@/assets/img/logos/react.jpg";
 import logoSketch from "@/assets/img/logos/sketch.jpg";
 import secuencia from "@/assets/img/containers/secuenciaContainerArmado.png";
+import logoflex1 from "@/assets/img/LogosFlexCamp/logo_flexcamp1.png"
 
 //hooks
 const body = document.getElementsByTagName("body")[0];
@@ -56,10 +57,12 @@ onUnmounted(() => {
       <div class="container">
         <div class="row mt-10 pt-10">
           <div class="col-lg-7 text-center mx-auto position-relative">
-            <h1 class="display-1 text-white pt-10 mt-n5 me-2" style="text-shadow: 2px 2px black"
+            <!-- <h1 class="display-1 text-white pt-10 mt-n5 me-2" style="text-shadow: 2px 2px black"
               :style="{ display: 'inline-block ' }">
               FlexCamp
-            </h1>
+            </h1> -->
+            <!--image logo-->
+            <img :src="logoflex1" alt="title" loading="lazy" :style="{ height: '12vh' }" />
 
             <h3 class="text-white px-5 mt-3" style="text-shadow: 2px 2px black">
               Flexible, rápido y ecológico

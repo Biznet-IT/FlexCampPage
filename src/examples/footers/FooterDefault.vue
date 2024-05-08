@@ -1,5 +1,5 @@
 <script setup>
-import logoDark from "@/assets/img/logo-ct-dark.png";
+import logoDark from "@/assets/img/LogosFlexCamp/icon_flexcamp1.png";
 defineProps({
   brand: {
     type: Object,

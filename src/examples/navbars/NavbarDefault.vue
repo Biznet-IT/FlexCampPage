@@ -7,6 +7,9 @@ import { useWindowsWidth } from "../../assets/js/useWindowsWidth";
 import ArrDark from "@/assets/img/down-arrow-dark.svg";
 import downArrow from "@/assets/img/down-arrow.svg";
 import DownArrWhite from "@/assets/img/down-arrow-white.svg";
+import logoflex1 from "@/assets/img/LogosFlexCamp/logo_flexcamp1.png"
+import logoflex2 from "@/assets/img/LogosFlexCamp/logo_flexcamp2.png"
+import logoflex3 from "@/assets/img/LogosFlexCamp/logo_flexcamp3.png"
 
 const props = defineProps({
   action: {
@@ -15,7 +18,7 @@ const props = defineProps({
     color: String,
     label: String,
     default: () => ({
-      route: "pages/landing-pages/contact-us",
+      route: "/pages/landing-pages/contact-us",
       color: "bg-gradient-success",
       label: "Contacto"
     })
@@ -202,6 +205,12 @@ watch(
                       >
                         <span>Sobre Nosotros</span>
                       </RouterLink> -->
+                      <RouterLink
+                        :to="{ name: 'description' }"
+                        class="dropdown-item border-radius-md"
+                      >
+                      <span>Descripción</span>
+                    </RouterLink>
                       <RouterLink
                         :to="{ name: 'contactus' }"
                         class="dropdown-item border-radius-md"
