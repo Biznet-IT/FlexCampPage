@@ -127,13 +127,14 @@ onUnmounted(() => {
         </div>
       </div>
     </div>
+    
     <div class="container-fluid  p-5 ">
       <div class="card text-center ">
 
         <div class="card-body embed-responsive embed-responsive-16by9 ">
 
           <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/n_gVuOHGb-M?si=SEbpNFahzgpNgc-e"
-            allowfullscreen style="width: 80rem; height: 45rem;"></iframe>
+            allowfullscreen style="width: 80vh; height: 45vh;"></iframe>
         </div>
 
       </div>
