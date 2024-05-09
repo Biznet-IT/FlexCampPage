@@ -56,13 +56,14 @@ onUnmounted(() => {
     <div class="page-header min-vh-75" :style="`background-image: url(${vueMkHeader})`" loading="lazy">
       <div class="container">
         <div class="row mt-2 pt-2">
+
           <div class="col-lg-7 text-center mx-auto position-relative">
             <!-- <h1 class="display-1 text-white pt-10 mt-n5 me-2" style="text-shadow: 2px 2px black"
               :style="{ display: 'inline-block ' }">
               FlexCamp
             </h1> -->
             <!--image logo-->
-            <img :src="logoflex1" alt="title" loading="lazy" class="img-fluid"  />
+            <img :src="logoflex1" alt="title" loading="lazy" class="img-fluid" />
 
             <h3 class="text-white px-5 mt-3" style="text-shadow: 2px 2px black">
               Flexible, rápido y ecológico
@@ -81,18 +82,18 @@ onUnmounted(() => {
 
 
   <div class="card card-body blur shadow-blur">
-    
+
     <div class="card text-center">
-      
+
       <div class="card-body">
-        <img :src="secuencia" alt="title" loading="lazy" class="img-fluid"/>
+        <img :src="secuencia" alt="title" loading="lazy" class="img-fluid" />
         <h2 class="card-title">
           <span style="color: green;">4</span> PASOS = <span style="color: green;">4</span> MINUTOS = <span
             style="color: green;">1</span> + <span style="color: green;">RUEDAS</span> = CASA MOVIL
         </h2>
-        
+
       </div>
-      
+
     </div>
     <PresentationCounter />
     <div class="container-fluid mt-sm-5 border-radius-xl" :style="{
@@ -126,6 +127,18 @@ onUnmounted(() => {
         </div>
       </div>
     </div>
+    <div class="container-fluid  p-5 ">
+      <div class="card text-center ">
+
+        <div class="card-body embed-responsive embed-responsive-16by9 ">
+
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/n_gVuOHGb-M?si=SEbpNFahzgpNgc-e"
+            allowfullscreen style="width: 80rem; height: 45rem;"></iframe>
+        </div>
+
+      </div>
+    </div>
+
     <PresentationInformation />
     <!-- <PresentationExample :data="data" /> -->
     <!-- <PresentationPages /> -->
