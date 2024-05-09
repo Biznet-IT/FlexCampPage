@@ -29,7 +29,7 @@ import logoVue from "@/assets/img/logos/vue.jpg";
 import logoAngular from "@/assets/img/logos/angular.jpg";
 import logoReact from "@/assets/img/logos/react.jpg";
 import logoSketch from "@/assets/img/logos/sketch.jpg";
-import secuencia from "@/assets/img/containers/secuenciaContainerArmado.png";
+import secuencia from "@/assets/img/containers/secuenciaContainerArmadoyRuedas.png";
 import logoflex1 from "@/assets/img/LogosFlexCamp/logo_flexcamp1.png"
 
 //hooks
@@ -88,7 +88,7 @@ onUnmounted(() => {
         <img :src="secuencia" alt="title" loading="lazy" class="img-fluid"/>
         <h2 class="card-title">
           <span style="color: green;">4</span> PASOS = <span style="color: green;">4</span> MINUTOS = <span
-            style="color: green;">1</span> CASA
+            style="color: green;">1</span> + <span style="color: green;">RUEDAS</span> = CASA MOVIL
         </h2>
         
       </div>
